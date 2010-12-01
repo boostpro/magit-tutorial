@@ -8,22 +8,46 @@
 #+DRAWERS: PROPERTIES LOGBOOK OUTPUT SCRIPT SOURCE DATA
 #+LINK: emacswiki http://www.emacswiki.org/emacs/
 
-* "It's Magit!"
-** Pronunciation
-** M-x "magit-status"
+* First steps
+** "It's Magit!"
+*** Pronunciation
+*** M-x "magit-status"
    Put your cursor at the end of the following line and hit `C-x C-e'
 (global-set-key [(control ?x) ?g] 'magit-status)
-*** Invoke in a subdirectory of the project to show that it finds the .git directory
-* What's on the screen
-** Header area
-*** Remote branch info
-*** Local info
-*** Head info
-** Untracked
+**** Invoke in a subdirectory of the project to show that it finds the .git directory
+** What's on the screen
+*** Header area
+**** Remote branch info
+**** Local info
+**** Head info
+*** Untracked
+*** Stashes
+*** Unstaged
+*** Staged
+*** Unpushed
+** Tabbing to fold/unfold
+** Staging/Unstaging
+*** s and u
+*** Note the $
+*** S-s and S-u
+*** Unstage a staged hunk!
+** Commit (c)
+*** C-c C-c or C-x k RET
+* Keeping things clean
+** k
+*** Revert an unstaged change
+*** Revert a hunk
+*** Delete an untracked file
 ** Stashes
-** Unstaged
-** Staged
-** Unpushed
+   Use a good description
+*** Applying with a or A
+    Does not affect the index (?)
+*** discard with k
+* Log
+** explain the legend
+** 
+
+   
 * Concepts
 ** Viewing
 *** commits
