@@ -1,0 +1,45 @@
+-*- mode: org; fill-column: 78 -*-
+#+TITLE: MAGIT  
+
+#+STARTUP: content fninline hidestars
+#+ARCHIVE: archive.txt::
+#+SEQ_TODO: STARTED TODO(@) APPT WAITING(@) DELEGATED(@) DEFERRED(@) SOMEDAY(@) | DONE(@) CANCELLED(@) NOTE
+#+TAGS: Call(c) Errand(e) Home(h) Net(n)
+#+DRAWERS: PROPERTIES LOGBOOK OUTPUT SCRIPT SOURCE DATA
+#+LINK: emacswiki http://www.emacswiki.org/emacs/
+
+* "It's Magit!"
+** Pronunciation
+** M-x "magit-status"
+   Put your cursor at the end of the following line and hit `C-x C-e'
+(global-set-key [(control ?x) ?g] 'magit-status)
+*** Invoke in a subdirectory of the project to show that it finds the .git directory
+* What's on the screen
+** Header area
+*** Remote branch info
+*** Local info
+*** Head info
+** Untracked
+** Stashes
+** Unstaged
+** Staged
+** Unpushed
+* Concepts
+** Viewing
+*** commits
+*** stashes
+*** Staging area
+*** Working tree state
+* Scenarios
+** Rewrite History
+** Rebase
+** Merge
+** Selecting changes for commit (incl hunks)
+** Stashing
+** Snapshot
+** Topic Branches!! (note topgit)
+** Log view (including log-all)
+** Cherry picking
+** bB for branch-switching
+* TipsTrix
+** V - show all branches
