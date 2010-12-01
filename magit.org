@@ -26,12 +26,14 @@
 *** Staged
 *** Unpushed
 ** Tabbing to fold/unfold
+** RET to visit
 ** Staging/Unstaging
 *** s and u
 *** Note the $
 *** S-s and S-u
 *** Unstage a staged hunk!
 ** Commit (c)
+*** C-c C-a to amend
 *** C-c C-c or C-x k RET
 * Keeping things clean
 ** k
@@ -42,9 +44,20 @@
    Use a good description
 *** Applying with a or A
     Does not affect the index (?)
+    Note used for cherry-picking
 *** discard with k
 * Log
-** explain the legend
+** "ll" really fast
+** Navigation
+*** SPC DEL
+*** n, p
+*** RET
+** Copy SHA as kill with C-w
+   
+** Cover cherry-picking later
+** explain the legend later
+   
+* Branching/Merging
 ** 
 
    
