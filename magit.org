@@ -96,12 +96,27 @@
 ** f to fetch
 *** What is the "current" remote?
 ** F to pull
+** Log all
 * History rewriting
+** Three new files, three separate commits
+** Just amend the last commit
+** Then in 2 separate commits, modify the other 2 files
+** r s to start rewrite
+** apply all the commits to make it look like each file is only touched once
+** Note the dots and stars
+** Note the stacked commit messages
+** r f to finish the rewrite
+
+* Exercise: 
+** create a topic branch
+** check in some changes
+** push to a remote
+** go back to master
+** rewrite topic branch history on master
+** someone changes remote master
+** rebase master on latest remote
+
   
-
-
-
- 
 * Concepts
 ** Viewing
 *** commits
