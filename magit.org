@@ -87,7 +87,16 @@
 *** Show that all the usual keystrokes apply
 *** `a' to apply a change
 *** Alex does a lot with `a' and `A' here, but the obvious thing would be to use `X' to get back the commit you just reverted.
-* Remotes
+* Remote Repositories
+** Set up repos foobar, foobar2 with a common remote
+   consider using a local remote
+** Stage and commit a new file in foobar
+** Show that it's called out as "unpushed"
+** `P' to push
+** f to fetch
+*** What is the "current" remote?
+** F to pull
+* History rewriting
   
 
 
