@@ -11,6 +11,9 @@
 * First steps
 ** "It's Magit!"
 *** Pronunciation
+*** Why it's great
+**** Uniformity
+   * ...?
 *** M-x "magit-status"
    Put your cursor at the end of the following line and hit `C-x C-e'
 (global-set-key [(control ?x) ?g] 'magit-status)
@@ -79,7 +82,13 @@
 ** revert commit with x
 ** show how changes are left as dirty files
 ** describe X
-* 
+* Reflog
+** `h'
+*** Show that all the usual keystrokes apply
+*** `a' to apply a change
+*** Alex does a lot with `a' and `A' here, but the obvious thing would be to use `X' to get back the commit you just reverted.
+* Remotes
+  
 
 
 
