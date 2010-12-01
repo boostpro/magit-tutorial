@@ -56,11 +56,34 @@
    
 ** Cover cherry-picking later
 ** explain the legend later
-   
-* Branching/Merging
-** 
 
-   
+* Customizations
+
+  (customize-save-variable 'magit-remote-ref-format 'remote-slash-branch
+  "Otherwise, magit uses a funky `branch-name (remote-name)' syntax")
+  
+  (customize-save-variable 'magit-process-popup-time 2
+  "If Git is taking more than a couple seconds, show me what's happening")
+
+* Branching/Merging
+** `b c' to check out a different branch (show autocomplete)
+*** note offer to create local tracking branch
+** `b B' to create a new branch, "experiment"
+** add a new file
+** switch back to master
+** add a new file
+** merge experiment into master with m
+** revert
+** merge again with M
+** show the merge in the log
+** revert commit with x
+** show how changes are left as dirty files
+** describe X
+* 
+
+
+
+ 
 * Concepts
 ** Viewing
 *** commits
